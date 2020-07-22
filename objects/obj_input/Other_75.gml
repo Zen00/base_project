@@ -30,12 +30,16 @@ switch(_event) {
 			,dpup:h0.1
 			,dpleft:h0.8
 			,dpdown:h0.4
+			,leftx:a0
+			,lefty:a1
+			,rightx:a2
+			,righty:a4
 			";
 			#endregion
 			gamepad_test_mapping(gp_id_,_mapping);
 		}
 		#endregion
-		gamepad_set_axis_deadzone(gp_id_, 0.5); //This should be user set-able in certain modern game types
+		gamepad_set_axis_deadzone(gp_id_, 0.1); //This should be user set-able in certain modern game types
 		gamepad_set_button_threshold(gp_id_, 0.1); //As would this
 	break;
 	case "gamepad lost":
