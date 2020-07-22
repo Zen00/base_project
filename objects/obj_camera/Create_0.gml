@@ -29,7 +29,13 @@ surface_resize(application_surface,view_width_*zoom_,view_height_*zoom_); //Resi
 alarm[0] = 1;
 
 //Targeting
+x_previous_ = x;
+y_previous_ = y;
 target_ = noone;
+
+//Camera shake
+shake_ = false;
+shake_intensity_ = 6;
 
 
 //So apprently the reason for the overscan of 8 pixels on the top of the screen and 8 pixels on the bottom of the screen

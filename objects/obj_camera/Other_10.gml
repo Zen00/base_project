@@ -17,6 +17,8 @@ if(instance_exists(target_)) {
 	_y = clamp(_y,0,room_height - view_height_);
 	
 	//Position the camera
+	x_previous_ = x; //Have to manually handle these
+	y_previous_ = y;
 	x = _x;
 	y = _y;
 	camera_set_view_pos(CAM,_x,_y);
