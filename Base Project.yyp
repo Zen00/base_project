@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "6e59e296-3603-46d6-8b1f-06616e1c288f",
+            "Value": {
+                "id": "0548d588-1f91-423c-8311-f7f7a747623b",
+                "resourcePath": "scripts\\draw_line_sprite\\draw_line_sprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "70e5eb9d-8f36-4c6d-b597-c37fbf421b66",
             "Value": {
                 "id": "ed8b8645-2dbe-4b34-acbf-795b1928fd5d",
@@ -829,6 +837,7 @@
         "68e1dbbb-5a89-4b70-ab34-f311348fba33",
         "05c429de-d928-4661-bb84-93b510b5a2c0",
         "a7321f15-281a-469c-81a2-d5d601abe662",
+        "6e59e296-3603-46d6-8b1f-06616e1c288f",
         "dce83b57-a74d-4b3f-bcf7-ba0603bd4fea",
         "a1718912-70a7-4a13-bf13-4bb7980dde2c",
         "2b490d69-6372-4111-94c0-c9a902e300c4",
