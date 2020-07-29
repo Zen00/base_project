@@ -6,7 +6,6 @@ enum CAM_MODE {
 	free
 }
 state_ = CAM_MODE.fixed;
-transition_direction_ = DIR4.right;
 
 //Our goal: Resize the game to the maximum pixel perfect size allowable by default that fits your screen
 //(minus 1 zoom level, because typically being maximum sized is undesirable as it makes it hard to drag the window around)

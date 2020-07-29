@@ -22,6 +22,8 @@ if(shake_) {
 } else if((_cam_w != view_width_) || (_cam_h != view_height_)) {
 	var xx = lerp_smooth(_cam_w,view_width_,0.5,0.001);
 	var yy = lerp_smooth(_cam_h,view_height_,0.5,0.001);
+	var _xdiff = view_width_ - xx; //How far am I from my "normal" position
+	var _ydiff = view_height_ - yy;
 	camera_set_view_size(CAM,xx,yy);
-	camera_set_view_pos(CAM,x,y);
+	camera_set_view_pos(CAM,x + _xdiff,y + _ydiff);
 }
