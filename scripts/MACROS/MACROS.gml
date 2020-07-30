@@ -41,7 +41,7 @@ var _oldschool_map =		" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVW
 var _lil_d0t_map =			"ABDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz01234567890~`!@#$%^&*()-_+=[]{}|\\:;\"'.,<>/?";
 var _boxy_bold_map =		"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`{|}~";
 var _good_neighbor_map =	"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
-global.FONT = font_add_sprite_ext(spr_font_good_neighbor,_oldschool_map,true,1);
+global.FONT = font_add_sprite_ext(spr_font_oldschool,_oldschool_map,true,1);
 draw_set_font(global.FONT);
 
 //Various globals
